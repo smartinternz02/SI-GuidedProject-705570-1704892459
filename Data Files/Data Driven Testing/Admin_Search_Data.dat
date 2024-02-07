@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>9af3aa6f-2302-4234-8148-b973c8b34bea</dataFileGUID>
-   <dataSourceUrl>External_Data_Files_DDT/Admin_Search_Data_excel.xlsx</dataSourceUrl>
+   <dataSourceUrl>External_data_files_DDT/Admin_Search_Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
