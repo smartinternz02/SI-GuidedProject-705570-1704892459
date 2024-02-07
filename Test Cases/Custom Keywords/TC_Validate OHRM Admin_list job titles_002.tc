@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Validate OHRM Admin_list job titles_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93e26829-d1ef-478b-b3e3-309161e369dd</testCaseGuid>
+</TestCaseEntity>

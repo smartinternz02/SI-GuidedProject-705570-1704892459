@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate OHRM Login_TestSuite" time="150.186" tests="5" failures="0" errors="0">
+   <testsuite name="Validate OHRM Login_TestSuite" tests="5" failures="0" errors="0" time="150.186" skipped="0" timestamp="07-02-2024T01:00:35" hostname="Shahbaaz - DESKTOP-69BDL2N" id="Test Suites/Local and Global Variables/Validate OHRM Login_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_010026\\Local and Global Variables\\Validate OHRM Login_TestSuite\\20240207_010029"/>
+         <property name="logFiles" value="C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_010026\\Local and Global Variables\\Validate OHRM Login_TestSuite\\20240207_010029\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_010026\\Local and Global Variables\\Validate OHRM Login_TestSuite\\20240207_010029\\1707247881913.png, C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_010026\\Local and Global Variables\\Validate OHRM Login_TestSuite\\20240207_010029\\1707247917240.png, C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_010026\\Local and Global Variables\\Validate OHRM Login_TestSuite\\20240207_010029\\1707247951232.png, C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_010026\\Local and Global Variables\\Validate OHRM Login_TestSuite\\20240207_010029\\1707247985193.png"/>
+         <property name="hostName" value="Shahbaaz - DESKTOP-69BDL2N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.167"/>
+         <property name="sessionId" value="ecb759128d756f1f5e7d1f56a3b2974c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001" time="9.89" classname="Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001" status="PASSED">
+         <system-out><![CDATA[07-02-2024T01:00:36 - [TEST_CASE][PASSED] - Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001: Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001
+
+07-02-2024T01:00:36 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:00:36 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:00:40 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:00:40 - [TEST_STEP][PASSED] - comment("To test for successful Login"): To test for successful Login
+
+07-02-2024T01:00:40 - [MESSAGE][INFO] - To test for successful Login
+
+07-02-2024T01:00:40 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T01:00:41 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T01:00:41 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Password_password"), Password): Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T01:00:42 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T01:00:42 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Login/button_Login")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T01:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T01:00:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard")): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+07-02-2024T01:00:44 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+07-02-2024T01:00:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+07-02-2024T01:00:44 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button"), OPTIONAL)): null
+
+07-02-2024T01:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is visible
+
+07-02-2024T01:00:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+07-02-2024T01:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+07-02-2024T01:00:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on
+
+07-02-2024T01:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Local and Global Variables/TC_Validate OHRM Login_Invalid Username_002" time="35.337" classname="Test Cases/Local and Global Variables/TC_Validate OHRM Login_Invalid Username_002" status="PASSED">
+         <system-out><![CDATA[07-02-2024T01:00:46 - [TEST_CASE][PASSED] - Test Cases/Local and Global Variables/TC_Validate OHRM Login_Invalid Username_002: Test Cases/Local and Global Variables/TC_Validate OHRM Login_Invalid Username_002
+
+07-02-2024T01:00:46 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:00:46 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:00:47 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:00:47 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Username_username"), invalid_username): Text 'abcd
+' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T01:00:48 - [MESSAGE][PASSED] - Text 'abcd
+' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T01:00:48 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Password_password"), Password): Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T01:00:48 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T01:00:48 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Login/button_Login")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T01:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T01:00:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Login/p_Invalid credentials"), STOP_ON_FAILURE): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/p_Invalid credentials' is visible
+
+07-02-2024T01:00:50 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/p_Invalid credentials' is visible
+
+07-02-2024T01:00:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at OHRM_TestListener.sampleAfterTestCase(OHRM_TestListener.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707247829792.run(TempTestSuite1707247829792.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+07-02-2024T01:00:50 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button"), OPTIONAL)): Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at OHRM_TestListener.sampleAfterTestCase(OHRM_TestListener.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707247829792.run(TempTestSuite1707247829792.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+07-02-2024T01:01:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div/header/div/div[2]/ul/li/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-02-2024T01:01:22 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at OHRM_TestListener.sampleAfterTestCase(OHRM_TestListener.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707247829792.run(TempTestSuite1707247829792.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_010026\\Local and Global Variables\\Validate OHRM Login_TestSuite\\20240207_010029\\1707247881913.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Local and Global Variables/TC_Validate OHRM Login_Invalid Password_003" time="35.301" classname="Test Cases/Local and Global Variables/TC_Validate OHRM Login_Invalid Password_003" status="PASSED">
+         <system-out><![CDATA[07-02-2024T01:01:22 - [TEST_CASE][PASSED] - Test Cases/Local and Global Variables/TC_Validate OHRM Login_Invalid Password_003: Test Cases/Local and Global Variables/TC_Validate OHRM Login_Invalid Password_003
+
+07-02-2024T01:01:22 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:01:22 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:01:22 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:01:22 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T01:01:23 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T01:01:23 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Password_password"), invalid_password): Text 'abcd123
+' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T01:01:24 - [MESSAGE][PASSED] - Text 'abcd123
+' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T01:01:24 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Login/button_Login")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T01:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T01:01:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Login/p_Invalid credentials"), STOP_ON_FAILURE): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/p_Invalid credentials' is visible
+
+07-02-2024T01:01:26 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/p_Invalid credentials' is visible
+
+07-02-2024T01:01:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at OHRM_TestListener.sampleAfterTestCase(OHRM_TestListener.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707247829792.run(TempTestSuite1707247829792.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+07-02-2024T01:01:26 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button"), OPTIONAL)): Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at OHRM_TestListener.sampleAfterTestCase(OHRM_TestListener.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707247829792.run(TempTestSuite1707247829792.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+07-02-2024T01:01:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div/header/div/div[2]/ul/li/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-02-2024T01:01:57 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at OHRM_TestListener.sampleAfterTestCase(OHRM_TestListener.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707247829792.run(TempTestSuite1707247829792.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_010026\\Local and Global Variables\\Validate OHRM Login_TestSuite\\20240207_010029\\1707247917240.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Password_004" time="33.991" classname="Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Password_004" status="PASSED">
+         <system-out><![CDATA[07-02-2024T01:01:57 - [TEST_CASE][PASSED] - Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Password_004: Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Password_004
+
+07-02-2024T01:01:57 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:01:57 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:01:57 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:01:57 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T01:01:58 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T01:01:58 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Password_password"), ""): Text '' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T01:01:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T01:01:59 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Login/button_Login")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T01:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T01:01:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Login/span_password_required"), CONTINUE_ON_FAILURE): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/span_password_required' is visible
+
+07-02-2024T01:02:00 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/span_password_required' is visible
+
+07-02-2024T01:02:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at OHRM_TestListener.sampleAfterTestCase(OHRM_TestListener.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707247829792.run(TempTestSuite1707247829792.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+07-02-2024T01:02:00 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button"), OPTIONAL)): Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at OHRM_TestListener.sampleAfterTestCase(OHRM_TestListener.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707247829792.run(TempTestSuite1707247829792.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+07-02-2024T01:02:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div/header/div/div[2]/ul/li/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-02-2024T01:02:31 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at OHRM_TestListener.sampleAfterTestCase(OHRM_TestListener.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707247829792.run(TempTestSuite1707247829792.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_010026\\Local and Global Variables\\Validate OHRM Login_TestSuite\\20240207_010029\\1707247951232.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Username_005" time="33.961" classname="Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Username_005" status="PASSED">
+         <system-out><![CDATA[07-02-2024T01:02:31 - [TEST_CASE][PASSED] - Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Username_005: Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Username_005
+
+07-02-2024T01:02:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:02:31 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:02:31 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T01:02:31 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Username_username"), ""): Text '' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T01:02:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T01:02:32 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Password_password"), Password): Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T01:02:33 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T01:02:33 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Login/button_Login")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T01:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T01:02:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Login/span_username_required"), CONTINUE_ON_FAILURE): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/span_username_required' is visible
+
+07-02-2024T01:02:34 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/span_username_required' is visible
+
+07-02-2024T01:02:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at OHRM_TestListener.sampleAfterTestCase(OHRM_TestListener.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707247829792.run(TempTestSuite1707247829792.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+07-02-2024T01:02:34 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button"), OPTIONAL)): Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at OHRM_TestListener.sampleAfterTestCase(OHRM_TestListener.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707247829792.run(TempTestSuite1707247829792.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+07-02-2024T01:03:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div/header/div/div[2]/ul/li/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-02-2024T01:03:05 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' located by '//div[@id='app']/div/div/header/div/div[2]/ul/li/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:401)
+	at OHRM_TestListener.sampleAfterTestCase(OHRM_TestListener.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707247829792.run(TempTestSuite1707247829792.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_010026\\Local and Global Variables\\Validate OHRM Login_TestSuite\\20240207_010029\\1707247985193.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T01:00:35 - [TEST_SUITE][PASSED] - Validate OHRM Login_TestSuite: Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Username_005]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

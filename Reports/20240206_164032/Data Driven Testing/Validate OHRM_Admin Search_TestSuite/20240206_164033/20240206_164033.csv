@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Validate OHRM_Admin Search_TestSuite,Chrome 121.0.0.0,,,06-02-2024 16:40:35,06-02-2024 16:41:05,30.396s,FAILED
+,,,,,,,
+Test Cases/Data Driven Testing/TC_Validate Admin Employee Search_001,Chrome 121.0.0.0,,,06-02-2024 16:40:35,06-02-2024 16:40:55,19.726s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 16:40:35,06-02-2024 16:40:35,0.026s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 16:40:35,06-02-2024 16:40:36,1.142s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,06-02-2024 16:40:36,06-02-2024 16:40:37,0.132s,PASSED
+navigateToUrl(URL),Chrome 121.0.0.0,,,06-02-2024 16:40:37,06-02-2024 16:40:39,2.555s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Username_username""), Username)",Chrome 121.0.0.0,,,06-02-2024 16:40:39,06-02-2024 16:40:40,1.084s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Password_password""), Password)",Chrome 121.0.0.0,,,06-02-2024 16:40:40,06-02-2024 16:40:41,0.493s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/button_Login""))",Chrome 121.0.0.0,,,06-02-2024 16:40:41,06-02-2024 16:40:41,0.267s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Admin/a_Admin_navigation_link""))",Chrome 121.0.0.0,,,06-02-2024 16:40:41,06-02-2024 16:40:44,3.265s,PASSED
+"if (!(emp_username.equals("""")))",Chrome 121.0.0.0,,,06-02-2024 16:40:44,06-02-2024 16:40:44,0.005s,PASSED
+"if (emp_role.equals(""Admin""))",Chrome 121.0.0.0,,,06-02-2024 16:40:44,06-02-2024 16:40:44,0.001s,PASSED
+"if (!(emp_name.equals("""")))",Chrome 121.0.0.0,,,06-02-2024 16:40:44,06-02-2024 16:40:51,6.676s,PASSED
+"if (emp_status.equals(""Enabled""))",Chrome 121.0.0.0,,,06-02-2024 16:40:51,06-02-2024 16:40:52,0.971s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Admin/button_Search""))",Chrome 121.0.0.0,,,06-02-2024 16:40:52,06-02-2024 16:40:52,0.478s,PASSED
+"verifyTextPresent(validation_text, false)",Chrome 121.0.0.0,,,06-02-2024 16:40:52,06-02-2024 16:40:53,0.321s,PASSED
+delay(2),Chrome 121.0.0.0,,,06-02-2024 16:40:53,06-02-2024 16:40:55,2.015s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 16:40:55,06-02-2024 16:40:55,0.140s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 16:40:55,06-02-2024 16:40:55,0.001s,PASSED
+,,,,,,,
+Test Cases/Data Driven Testing/TC_Validate Admin Employee Search_001,Chrome 121.0.0.0,,,06-02-2024 16:40:55,06-02-2024 16:41:05,10.510s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 16:40:55,06-02-2024 16:40:55,0.002s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 16:40:55,06-02-2024 16:40:55,0.557s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,06-02-2024 16:40:55,06-02-2024 16:40:56,0.118s,PASSED
+navigateToUrl(URL),Chrome 121.0.0.0,,,06-02-2024 16:40:56,06-02-2024 16:40:58,2.324s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Username_username""), Username)",Chrome 121.0.0.0,,,06-02-2024 16:40:58,06-02-2024 16:40:58,0.060s,FAILED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Password_password""), Password)",Chrome 121.0.0.0,,,06-02-2024 16:40:58,06-02-2024 16:40:58,0.035s,FAILED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/button_Login""))",Chrome 121.0.0.0,,,06-02-2024 16:40:58,06-02-2024 16:40:58,0.033s,FAILED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Admin/a_Admin_navigation_link""))",Chrome 121.0.0.0,,,06-02-2024 16:40:58,06-02-2024 16:40:58,0.031s,FAILED
+"if (!(emp_username.equals("""")))",Chrome 121.0.0.0,,,06-02-2024 16:40:58,06-02-2024 16:40:58,0.033s,FAILED
+"if (emp_role.equals(""Admin""))",Chrome 121.0.0.0,,,06-02-2024 16:40:58,06-02-2024 16:40:58,0.072s,FAILED
+"if (!(emp_name.equals("""")))",Chrome 121.0.0.0,,,06-02-2024 16:40:58,06-02-2024 16:41:03,5.068s,FAILED
+"if (emp_status.equals(""Enabled""))",Chrome 121.0.0.0,,,06-02-2024 16:41:03,06-02-2024 16:41:03,0.059s,FAILED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Admin/button_Search""))",Chrome 121.0.0.0,,,06-02-2024 16:41:03,06-02-2024 16:41:03,0.030s,FAILED
+"verifyTextPresent(validation_text, false)",Chrome 121.0.0.0,,,06-02-2024 16:41:03,06-02-2024 16:41:03,0.006s,FAILED
+delay(2),Chrome 121.0.0.0,,,06-02-2024 16:41:03,06-02-2024 16:41:05,2.007s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 16:41:05,06-02-2024 16:41:05,0.062s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 16:41:05,06-02-2024 16:41:05,0.000s,PASSED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Validate OHRM Login_Missing Parameters_Test Suite,Chrome 121.0.0.0,,,07-02-2024 01:00:35,07-02-2024 01:01:50,1m - 15.255s,PASSED
+,,,,,,,
+Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Password_004,Chrome 121.0.0.0,,,07-02-2024 01:00:36,07-02-2024 01:01:16,39.582s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 01:00:36,07-02-2024 01:00:42,5.862s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Username_username""), Username)",Chrome 121.0.0.0,,,07-02-2024 01:00:42,07-02-2024 01:00:43,1.234s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Password_password""), """")",Chrome 121.0.0.0,,,07-02-2024 01:00:43,07-02-2024 01:00:44,0.530s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/button_Login""))",Chrome 121.0.0.0,,,07-02-2024 01:00:44,07-02-2024 01:00:44,0.275s,PASSED
+"verifyElementVisible(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/span_password_required""), CONTINUE_ON_FAILURE)",Chrome 121.0.0.0,,,07-02-2024 01:00:44,07-02-2024 01:00:45,0.484s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 01:00:45,07-02-2024 01:01:16,31.143s,PASSED
+,,,,,,,
+Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Username_005,Chrome 121.0.0.0,,,07-02-2024 01:01:16,07-02-2024 01:01:50,34.047s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 01:01:16,07-02-2024 01:01:16,0.538s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Username_username""), """")",Chrome 121.0.0.0,,,07-02-2024 01:01:16,07-02-2024 01:01:17,0.939s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Password_password""), Password)",Chrome 121.0.0.0,,,07-02-2024 01:01:17,07-02-2024 01:01:18,0.523s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/button_Login""))",Chrome 121.0.0.0,,,07-02-2024 01:01:18,07-02-2024 01:01:18,0.254s,PASSED
+"verifyElementVisible(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/span_username_required""), CONTINUE_ON_FAILURE)",Chrome 121.0.0.0,,,07-02-2024 01:01:18,07-02-2024 01:01:19,0.473s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 01:01:19,07-02-2024 01:01:50,31.273s,PASSED

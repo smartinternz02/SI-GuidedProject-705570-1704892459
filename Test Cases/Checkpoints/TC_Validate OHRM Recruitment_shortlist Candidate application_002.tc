@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Validate OHRM Recruitment_shortlist Candidate application_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3242ae4-702d-4997-b087-ad6f488ba037</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46683f46-afe2-41ff-a569-f273086ba621</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Checkpoint Test Data/Internal Test Data_Checkpoint')</defaultValue>
+      <description></description>
+      <id>46683f46-afe2-41ff-a569-f273086ba621</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

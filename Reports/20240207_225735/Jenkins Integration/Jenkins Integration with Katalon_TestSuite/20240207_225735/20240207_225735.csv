@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Jenkins Integration with Katalon_TestSuite,Chrome 121.0.0.0,,,07-02-2024 22:57:37,07-02-2024 22:58:55,1m - 18.201s,FAILED
+,,,,,,,
+Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001,Chrome 121.0.0.0,,,07-02-2024 22:58:55,07-02-2024 22:58:55,0.135s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 22:58:55,07-02-2024 22:58:55,0.004s,FAILED
+"comment(""To test for successful Login"")",Chrome 121.0.0.0,,,07-02-2024 22:58:55,07-02-2024 22:58:55,0.000s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Username_username""), Username)",Chrome 121.0.0.0,,,07-02-2024 22:58:55,07-02-2024 22:58:55,0.017s,FAILED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Password_password""), Password)",Chrome 121.0.0.0,,,07-02-2024 22:58:55,07-02-2024 22:58:55,0.017s,FAILED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/button_Login""))",Chrome 121.0.0.0,,,07-02-2024 22:58:55,07-02-2024 22:58:55,0.031s,FAILED
+"verifyElementVisible(findTestObject(""OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard""))",Chrome 121.0.0.0,,,07-02-2024 22:58:55,07-02-2024 22:58:55,0.018s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 22:58:55,07-02-2024 22:58:55,0.021s,PASSED

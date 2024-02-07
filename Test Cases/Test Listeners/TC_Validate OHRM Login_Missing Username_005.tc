@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Validate OHRM Login_Missing Username_005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd317345-c636-4b1c-92bb-d357de4d4311</testCaseGuid>
+</TestCaseEntity>

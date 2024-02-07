@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Candidate_Shortlisted_Checkpoint</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Checkpoint Test Data/Internal Test Data_Checkpoint</source-url>
+   </source-info>
+   <taken-date>2024-02-06T23:59:39.553+05:30</taken-date>
+   <column-names>
+      <column-name>Status</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Shortlisted",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

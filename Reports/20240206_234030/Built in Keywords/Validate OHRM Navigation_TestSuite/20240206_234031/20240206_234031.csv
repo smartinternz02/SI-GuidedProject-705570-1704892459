@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Validate OHRM Navigation_TestSuite,Chrome 121.0.0.0,,,06-02-2024 23:40:33,06-02-2024 23:40:50,16.917s,PASSED
+,,,,,,,
+Test Cases/Built In Keywords/TC_Validate OHRM Navigation_001,Chrome 121.0.0.0,,,06-02-2024 23:40:34,06-02-2024 23:40:50,15.467s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 23:40:34,06-02-2024 23:40:38,3.125s,PASSED
+"callTestCase(findTestCase(""Local and Global Variables/TC_Validate OHRM Login_Login Success_001""), [""url"":"""", ""username"":"""", ""password"":""""], CONTINUE_ON_FAILURE)",Chrome 121.0.0.0,,,06-02-2024 23:40:38,06-02-2024 23:40:41,3.700s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Admin/a_Admin_navigation_link""))",Chrome 121.0.0.0,,,06-02-2024 23:40:41,06-02-2024 23:40:43,1.959s,PASSED
+delay(2),Chrome 121.0.0.0,,,06-02-2024 23:40:43,06-02-2024 23:40:45,2.024s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_PIM/a_PIM""))",Chrome 121.0.0.0,,,06-02-2024 23:40:45,06-02-2024 23:40:46,0.987s,PASSED
+delay(2),Chrome 121.0.0.0,,,06-02-2024 23:40:46,06-02-2024 23:40:48,2.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 23:40:48,06-02-2024 23:40:50,1.619s,PASSED

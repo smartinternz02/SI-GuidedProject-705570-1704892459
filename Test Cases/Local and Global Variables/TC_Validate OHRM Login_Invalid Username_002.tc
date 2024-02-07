@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Validate OHRM Login_Invalid Username_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07f397b7-9531-4146-8f06-97ac7cfe8451</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36fce5b0-2c13-4e88-8f36-82dc817e36f2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'abcd\r\n'</defaultValue>
+      <description></description>
+      <id>36fce5b0-2c13-4e88-8f36-82dc817e36f2</id>
+      <masked>false</masked>
+      <name>invalid_username</name>
+   </variable>
+</TestCaseEntity>

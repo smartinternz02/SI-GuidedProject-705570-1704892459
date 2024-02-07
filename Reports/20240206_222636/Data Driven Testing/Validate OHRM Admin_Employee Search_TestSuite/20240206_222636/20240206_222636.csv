@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Validate OHRM Admin_Employee Search_TestSuite,Chrome 121.0.0.0,,,06-02-2024 22:26:38,06-02-2024 22:27:12,34.592s,FAILED
+,,,,,,,
+Test Cases/Data Driven Testing/TC_Validate OHRM Admin_employee search_001,Chrome 121.0.0.0,,,06-02-2024 22:26:39,06-02-2024 22:26:53,14.090s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 22:26:39,06-02-2024 22:26:42,2.394s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Username_username""), Username)",Chrome 121.0.0.0,,,06-02-2024 22:26:42,06-02-2024 22:26:43,1.012s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Password_password""), Password)",Chrome 121.0.0.0,,,06-02-2024 22:26:43,06-02-2024 22:26:43,0.501s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/button_Login""))",Chrome 121.0.0.0,,,06-02-2024 22:26:43,06-02-2024 22:26:44,1.236s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Admin/a_Admin_navigation_link""))",Chrome 121.0.0.0,,,06-02-2024 22:26:44,06-02-2024 22:26:46,1.777s,PASSED
+"if (!(emp_username.equals("""")))",Chrome 121.0.0.0,,,06-02-2024 22:26:46,06-02-2024 22:26:48,1.382s,PASSED
+"if (emp_role.equals(""Admin""))",Chrome 121.0.0.0,,,06-02-2024 22:26:48,06-02-2024 22:26:48,0.001s,PASSED
+"if (!(emp_name.equals("""")))",Chrome 121.0.0.0,,,06-02-2024 22:26:48,06-02-2024 22:26:48,0.001s,PASSED
+"if (emp_status.equals(""Enabled""))",Chrome 121.0.0.0,,,06-02-2024 22:26:48,06-02-2024 22:26:48,0.745s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Admin/button_Search""))",Chrome 121.0.0.0,,,06-02-2024 22:26:48,06-02-2024 22:26:49,0.477s,PASSED
+"verifyTextPresent(validation_text, false)",Chrome 121.0.0.0,,,06-02-2024 22:26:49,06-02-2024 22:26:50,0.813s,FAILED
+delay(2),Chrome 121.0.0.0,,,06-02-2024 22:26:50,06-02-2024 22:26:52,2.027s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 22:26:52,06-02-2024 22:26:53,1.620s,PASSED
+,,,,,,,
+Test Cases/Data Driven Testing/TC_Validate OHRM Admin_employee search_001,Chrome 121.0.0.0,,,06-02-2024 22:26:53,06-02-2024 22:27:12,19.058s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 22:26:53,06-02-2024 22:26:54,0.537s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Username_username""), Username)",Chrome 121.0.0.0,,,06-02-2024 22:26:54,06-02-2024 22:26:55,1.055s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Password_password""), Password)",Chrome 121.0.0.0,,,06-02-2024 22:26:55,06-02-2024 22:26:55,0.539s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/button_Login""))",Chrome 121.0.0.0,,,06-02-2024 22:26:55,06-02-2024 22:26:57,1.247s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Admin/a_Admin_navigation_link""))",Chrome 121.0.0.0,,,06-02-2024 22:26:57,06-02-2024 22:26:59,2.411s,PASSED
+"if (!(emp_username.equals("""")))",Chrome 121.0.0.0,,,06-02-2024 22:26:59,06-02-2024 22:27:00,1.378s,PASSED
+"if (emp_role.equals(""Admin""))",Chrome 121.0.0.0,,,06-02-2024 22:27:00,06-02-2024 22:27:01,0.729s,PASSED
+"if (!(emp_name.equals("""")))",Chrome 121.0.0.0,,,06-02-2024 22:27:01,06-02-2024 22:27:07,5.993s,PASSED
+"if (emp_status.equals(""Enabled""))",Chrome 121.0.0.0,,,06-02-2024 22:27:07,06-02-2024 22:27:08,0.957s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Admin/button_Search""))",Chrome 121.0.0.0,,,06-02-2024 22:27:08,06-02-2024 22:27:09,0.482s,PASSED
+"verifyTextPresent(validation_text, false)",Chrome 121.0.0.0,,,06-02-2024 22:27:09,06-02-2024 22:27:09,0.281s,FAILED
+delay(2),Chrome 121.0.0.0,,,06-02-2024 22:27:09,06-02-2024 22:27:11,2.007s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 22:27:11,06-02-2024 22:27:12,1.430s,PASSED

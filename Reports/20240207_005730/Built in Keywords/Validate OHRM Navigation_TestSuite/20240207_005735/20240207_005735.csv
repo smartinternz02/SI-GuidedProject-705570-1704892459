@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Validate OHRM Navigation_TestSuite,Chrome 121.0.0.0,,,07-02-2024 00:57:39,07-02-2024 00:58:10,30.679s,PASSED
+,,,,,,,
+Test Cases/Built In Keywords/TC_Validate OHRM Navigation_001,Chrome 121.0.0.0,,,07-02-2024 00:57:41,07-02-2024 00:58:10,29.169s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 00:57:41,07-02-2024 00:57:43,2.528s,PASSED
+"callTestCase(findTestCase(""Jenkins Integration/TC_Validate OHRM Login_Login Success_001""), [""url"":"""", ""username"":"""", ""password"":""""], CONTINUE_ON_FAILURE)",Chrome 121.0.0.0,,,07-02-2024 00:57:44,07-02-2024 00:57:48,4.567s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Admin/a_Admin_navigation_link""))",Chrome 121.0.0.0,,,07-02-2024 00:57:48,07-02-2024 00:57:49,0.964s,PASSED
+"verifyElementVisible(findTestObject(""OrangeHRM_OR/Page_OHRM_Dashboard/h6_Admin""))",Chrome 121.0.0.0,,,07-02-2024 00:57:49,07-02-2024 00:57:50,1.152s,PASSED
+delay(2),Chrome 121.0.0.0,,,07-02-2024 00:57:50,07-02-2024 00:57:52,2.023s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_PIM/a_PIM""))",Chrome 121.0.0.0,,,07-02-2024 00:57:52,07-02-2024 00:57:53,0.976s,PASSED
+"waitForElementPresent(findTestObject(""OrangeHRM_OR/Page_OHRM_Dashboard/h6_PIM""), 2)",Chrome 121.0.0.0,,,07-02-2024 00:57:53,07-02-2024 00:57:56,2.863s,PASSED
+delay(2),Chrome 121.0.0.0,,,07-02-2024 00:57:56,07-02-2024 00:57:58,2.007s,PASSED
+back(),Chrome 121.0.0.0,,,07-02-2024 00:57:58,07-02-2024 00:57:58,0.014s,PASSED
+"verifyElementPresent(findTestObject(""OrangeHRM_OR/Page_OHRM_Dashboard/h6_Admin""), 0)",Chrome 121.0.0.0,,,07-02-2024 00:57:58,07-02-2024 00:58:00,1.994s,PASSED
+delay(2),Chrome 121.0.0.0,,,07-02-2024 00:58:00,07-02-2024 00:58:02,2.017s,PASSED
+forward(),Chrome 121.0.0.0,,,07-02-2024 00:58:02,07-02-2024 00:58:02,0.013s,PASSED
+"verifyElementText(findTestObject(""OrangeHRM_OR/Page_OHRM_Dashboard/h6_PIM""), ""PIM"")",Chrome 121.0.0.0,,,07-02-2024 00:58:02,07-02-2024 00:58:03,1.124s,PASSED
+out.println(getWindowIndex()),Chrome 121.0.0.0,,,07-02-2024 00:58:03,07-02-2024 00:58:03,0.017s,PASSED
+out.println(getWindowTitle()),Chrome 121.0.0.0,,,07-02-2024 00:58:03,07-02-2024 00:58:03,0.009s,PASSED
+delay(2),Chrome 121.0.0.0,,,07-02-2024 00:58:03,07-02-2024 00:58:05,2.004s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Dashboard/a_Time""))",Chrome 121.0.0.0,,,07-02-2024 00:58:05,07-02-2024 00:58:06,0.966s,PASSED
+"verifyTextNotPresent(""Admin / User Management"", false)",Chrome 121.0.0.0,,,07-02-2024 00:58:06,07-02-2024 00:58:06,0.239s,PASSED
+delay(2),Chrome 121.0.0.0,,,07-02-2024 00:58:06,07-02-2024 00:58:08,2.010s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 00:58:08,07-02-2024 00:58:10,1.605s,PASSED

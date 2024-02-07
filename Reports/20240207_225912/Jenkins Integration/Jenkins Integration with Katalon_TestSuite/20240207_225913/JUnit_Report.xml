@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Jenkins Integration with Katalon_TestSuite" time="10.027" tests="1" failures="0" errors="0">
+   <testsuite name="Jenkins Integration with Katalon_TestSuite" tests="1" failures="0" errors="0" time="10.027" skipped="0" timestamp="07-02-2024T22:59:15" hostname="Shahbaaz - DESKTOP-69BDL2N" id="Test Suites/Jenkins Integration/Jenkins Integration with Katalon_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_225912\\Jenkins Integration\\Jenkins Integration with Katalon_TestSuite\\20240207_225913"/>
+         <property name="logFiles" value="C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_225912\\Jenkins Integration\\Jenkins Integration with Katalon_TestSuite\\20240207_225913\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Shahbaaz - DESKTOP-69BDL2N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.167"/>
+         <property name="sessionId" value="ec4f613920e92205d7a7e253e64cb720"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001" time="8.744" classname="Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001" status="PASSED">
+         <system-out><![CDATA[07-02-2024T22:59:16 - [TEST_CASE][PASSED] - Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001: Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001
+
+07-02-2024T22:59:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T22:59:16 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T22:59:19 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T22:59:19 - [TEST_STEP][PASSED] - comment("To test for successful Login"): To test for successful Login
+
+07-02-2024T22:59:19 - [MESSAGE][INFO] - To test for successful Login
+
+07-02-2024T22:59:19 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T22:59:20 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T22:59:20 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Password_password"), Password): Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T22:59:20 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T22:59:20 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Login/button_Login")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T22:59:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T22:59:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard")): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+07-02-2024T22:59:22 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+07-02-2024T22:59:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+07-02-2024T22:59:22 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button"), OPTIONAL)): null
+
+07-02-2024T22:59:24 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is visible
+
+07-02-2024T22:59:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+07-02-2024T22:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+07-02-2024T22:59:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on
+
+07-02-2024T22:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T22:59:15 - [TEST_SUITE][PASSED] - Jenkins Integration with Katalon_TestSuite: Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

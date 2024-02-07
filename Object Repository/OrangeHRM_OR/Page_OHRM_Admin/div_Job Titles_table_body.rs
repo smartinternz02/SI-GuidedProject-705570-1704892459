@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Job Titles_table_body</name>
+   <tag></tag>
+   <elementGuidId>1d572730-cd3f-45d8-b7a5-13f57014cf9f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[3]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.orangehrm-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f593ca93-92de-4c07-a5e3-cd1b664f28ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>orangehrm-container</value>
+      <webElementGuid>50d96569-8533-4d3b-9065-4d321d6bf17f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Job TitlesAscendingDescendingJob DescriptionActionsAccount AssistantAutomaton TesterChief Executive OfficerChief Financial OfficerChief Technical OfficerContent SpecialistCustomer Success ManagerDatabase AdministratorFinance ManagerFinancial AnalystHead of SupportHR AssociateHR ManagerIT ManagerNetwork AdministratorPayroll AdministratorPerformance Testing Pre-Sales CoordinatorQA EngineerQA LeadqwerhiiiSales RepresentativeSocial Media MarketerSoftware ArchitectSoftware EngineerStrale is the bestStrale is the best again and againSupport SpecialistVP - Client ServicesVP - Sales &amp; Marketing</value>
+      <webElementGuid>52f4ca02-c6fa-406d-8c05-a80140648713</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-container&quot;]</value>
+      <webElementGuid>f7a9ba89-80af-4de4-ab3b-8b8dd012ca0f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[3]</value>
+      <webElementGuid>e88ec21c-29c6-4d26-96cb-fc9f3d90a87b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]</value>
+      <webElementGuid>8916d536-4359-407f-8c05-00f00ea15ead</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Job TitlesAscendingDescendingJob DescriptionActionsAccount AssistantAutomaton TesterChief Executive OfficerChief Financial OfficerChief Technical OfficerContent SpecialistCustomer Success ManagerDatabase AdministratorFinance ManagerFinancial AnalystHead of SupportHR AssociateHR ManagerIT ManagerNetwork AdministratorPayroll AdministratorPerformance Testing Pre-Sales CoordinatorQA EngineerQA LeadqwerhiiiSales RepresentativeSocial Media MarketerSoftware ArchitectSoftware EngineerStrale is the bestStrale is the best again and againSupport SpecialistVP - Client ServicesVP - Sales &amp; Marketing' or . = 'Job TitlesAscendingDescendingJob DescriptionActionsAccount AssistantAutomaton TesterChief Executive OfficerChief Financial OfficerChief Technical OfficerContent SpecialistCustomer Success ManagerDatabase AdministratorFinance ManagerFinancial AnalystHead of SupportHR AssociateHR ManagerIT ManagerNetwork AdministratorPayroll AdministratorPerformance Testing Pre-Sales CoordinatorQA EngineerQA LeadqwerhiiiSales RepresentativeSocial Media MarketerSoftware ArchitectSoftware EngineerStrale is the bestStrale is the best again and againSupport SpecialistVP - Client ServicesVP - Sales &amp; Marketing')]</value>
+      <webElementGuid>0b1e0233-4535-4741-b9b1-9bf7c877f041</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

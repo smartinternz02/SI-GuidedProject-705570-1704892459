@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Validate OHRM Login_Missing Parameters_Test Suite,Chrome 121.0.0.0,,,06-02-2024 22:21:44,06-02-2024 22:21:59,15.026s,PASSED
+,,,,,,,
+Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Password_004,Chrome 121.0.0.0,,,06-02-2024 22:21:45,06-02-2024 22:21:53,8.292s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 22:21:45,06-02-2024 22:21:47,2.488s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 22:21:47,06-02-2024 22:21:48,0.642s,PASSED
+navigateToUrl(URL),Chrome 121.0.0.0,,,06-02-2024 22:21:48,06-02-2024 22:21:50,2.399s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Username_username""), Username)",Chrome 121.0.0.0,,,06-02-2024 22:21:50,06-02-2024 22:21:52,1.291s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Password_password""), """")",Chrome 121.0.0.0,,,06-02-2024 22:21:52,06-02-2024 22:21:52,0.501s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/button_Login""))",Chrome 121.0.0.0,,,06-02-2024 22:21:52,06-02-2024 22:21:52,0.266s,PASSED
+"verifyElementVisible(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/span_password_required""), CONTINUE_ON_FAILURE)",Chrome 121.0.0.0,,,06-02-2024 22:21:52,06-02-2024 22:21:53,0.490s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 22:21:53,06-02-2024 22:21:53,0.102s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 22:21:53,06-02-2024 22:21:53,0.055s,FAILED
+,,,,,,,
+Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Username_005,Chrome 121.0.0.0,,,06-02-2024 22:21:53,06-02-2024 22:21:59,5.471s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 22:21:53,06-02-2024 22:21:53,0.004s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 22:21:53,06-02-2024 22:21:54,0.539s,PASSED
+navigateToUrl(URL),Chrome 121.0.0.0,,,06-02-2024 22:21:54,06-02-2024 22:21:56,2.461s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Username_username""), """")",Chrome 121.0.0.0,,,06-02-2024 22:21:56,06-02-2024 22:21:57,1.053s,PASSED
+"setText(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/input_Password_password""), Password)",Chrome 121.0.0.0,,,06-02-2024 22:21:57,06-02-2024 22:21:58,0.495s,PASSED
+"click(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/button_Login""))",Chrome 121.0.0.0,,,06-02-2024 22:21:58,06-02-2024 22:21:58,0.271s,PASSED
+"verifyElementVisible(findTestObject(""OrangeHRM_OR/Page_OHRM_Login/span_username_required""), CONTINUE_ON_FAILURE)",Chrome 121.0.0.0,,,06-02-2024 22:21:58,06-02-2024 22:21:58,0.478s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 22:21:58,06-02-2024 22:21:58,0.089s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 22:21:58,06-02-2024 22:21:59,0.035s,FAILED

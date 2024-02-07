@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate OHRM Navigation_TestSuite" time="30.253" tests="1" failures="0" errors="0">
+   <testsuite name="Validate OHRM Navigation_TestSuite" tests="1" failures="0" errors="0" time="30.253" skipped="0" timestamp="07-02-2024T00:35:08" hostname="Shahbaaz - DESKTOP-69BDL2N" id="Test Suites/Built in Keywords/Validate OHRM Navigation_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_003506\\Built in Keywords\\Validate OHRM Navigation_TestSuite\\20240207_003506"/>
+         <property name="logFiles" value="C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240207_003506\\Built in Keywords\\Validate OHRM Navigation_TestSuite\\20240207_003506\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Shahbaaz - DESKTOP-69BDL2N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.167"/>
+         <property name="sessionId" value="289ff298448d59439291d8b102d403a2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Built In Keywords/TC_Validate OHRM Navigation_001" time="28.935" classname="Test Cases/Built In Keywords/TC_Validate OHRM Navigation_001" status="PASSED">
+         <system-out><![CDATA[07-02-2024T00:35:09 - [TEST_CASE][PASSED] - Test Cases/Built In Keywords/TC_Validate OHRM Navigation_001: Test Cases/Built In Keywords/TC_Validate OHRM Navigation_001
+
+07-02-2024T00:35:09 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T00:35:09 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T00:35:15 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+07-02-2024T00:35:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Local and Global Variables/TC_Validate OHRM Login_Login Success_001"), ["url":"", "username":"", "password":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Local and Global Variables/TC_Validate OHRM Login_Login Success_001' successfully
+
+07-02-2024T00:35:15 - [TEST_CASE][PASSED] - Test Cases/Local and Global Variables/TC_Validate OHRM Login_Login Success_001: Test Cases/Local and Global Variables/TC_Validate OHRM Login_Login Success_001
+
+07-02-2024T00:35:15 - [TEST_STEP][PASSED] - comment("To test for successful Login"): To test for successful Login
+
+07-02-2024T00:35:15 - [MESSAGE][INFO] - To test for successful Login
+
+07-02-2024T00:35:15 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T00:35:16 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+07-02-2024T00:35:16 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Password_password"), Password): Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T00:35:17 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+07-02-2024T00:35:17 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Login/button_Login")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T00:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+07-02-2024T00:35:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard")): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+07-02-2024T00:35:19 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+07-02-2024T00:35:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Local and Global Variables/TC_Validate OHRM Login_Login Success_001' successfully
+
+07-02-2024T00:35:19 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Admin/a_Admin_navigation_link")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Admin/a_Admin_navigation_link' is clicked on
+
+07-02-2024T00:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Admin/a_Admin_navigation_link' is clicked on
+
+07-02-2024T00:35:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Dashboard/h6_Admin")): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Admin' is visible
+
+07-02-2024T00:35:22 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Admin' is visible
+
+07-02-2024T00:35:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-02-2024T00:35:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-02-2024T00:35:24 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/a_PIM")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/a_PIM' is clicked on
+
+07-02-2024T00:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/a_PIM' is clicked on
+
+07-02-2024T00:35:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("OrangeHRM_OR/Page_OHRM_Dashboard/h6_PIM"), 2): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_PIM' is present
+
+07-02-2024T00:35:27 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_PIM' is present
+
+07-02-2024T00:35:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-02-2024T00:35:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-02-2024T00:35:29 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+07-02-2024T00:35:29 - [MESSAGE][PASSED] - Navigate back successfully
+
+07-02-2024T00:35:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OrangeHRM_OR/Page_OHRM_Dashboard/h6_Admin"), 0): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Admin' is present
+
+07-02-2024T00:35:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-02-2024T00:35:29 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Admin' is present
+
+07-02-2024T00:35:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-02-2024T00:35:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-02-2024T00:35:31 - [TEST_STEP][PASSED] - forward(): Navigate forward successfully
+
+07-02-2024T00:35:31 - [MESSAGE][PASSED] - Navigate forward successfully
+
+07-02-2024T00:35:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OrangeHRM_OR/Page_OHRM_Dashboard/h6_PIM"), "PIM"): Actual text and expected text of test object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_PIM' are matched.
+
+07-02-2024T00:35:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_PIM' are matched.
+
+07-02-2024T00:35:31 - [TEST_STEP][PASSED] - out.println(getWindowIndex()): Current window's index is: 0
+
+07-02-2024T00:35:31 - [MESSAGE][PASSED] - Current window's index is: 0
+
+07-02-2024T00:35:31 - [TEST_STEP][PASSED] - out.println(getWindowTitle()): Current window's title is: 'OrangeHRM'
+
+07-02-2024T00:35:31 - [MESSAGE][PASSED] - Current window's title is: 'OrangeHRM'
+
+07-02-2024T00:35:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-02-2024T00:35:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-02-2024T00:35:33 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Dashboard/a_Time")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Time' is clicked on
+
+07-02-2024T00:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Time' is clicked on
+
+07-02-2024T00:35:34 - [TEST_STEP][PASSED] - verifyTextNotPresent("Admin / User Management", false): Text 'Admin / User Management' is not present on page
+
+07-02-2024T00:35:34 - [MESSAGE][PASSED] - Text 'Admin / User Management' is not present on page
+
+07-02-2024T00:35:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-02-2024T00:35:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-02-2024T00:35:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+07-02-2024T00:35:36 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button"), OPTIONAL)): null
+
+07-02-2024T00:35:37 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is visible
+
+07-02-2024T00:35:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+07-02-2024T00:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+07-02-2024T00:35:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on
+
+07-02-2024T00:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-02-2024T00:35:08 - [TEST_SUITE][PASSED] - Validate OHRM Navigation_TestSuite: Test Cases/Built In Keywords/TC_Validate OHRM Navigation_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
