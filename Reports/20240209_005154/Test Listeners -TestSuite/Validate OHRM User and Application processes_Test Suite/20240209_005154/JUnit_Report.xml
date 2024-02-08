@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Validate OHRM User and Application processes_Test Suite" time="89.526" tests="4" failures="0" errors="0">
+   <testsuite name="Validate OHRM User and Application processes_Test Suite" tests="4" failures="0" errors="0" time="89.526" skipped="0" timestamp="09-02-2024T00:51:56" hostname="Shahbaaz - DESKTOP-69BDL2N" id="Test Suites/Test Listeners -TestSuite/Validate OHRM User and Application processes_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240209_005154\\Test Listeners -TestSuite\\Validate OHRM User and Application processes_Test Suite\\20240209_005154"/>
+         <property name="logFiles" value="C:\\Users\\Shahbaaz\\git\\SI-GuidedProject-705570-1704892459\\Reports\\20240209_005154\\Test Listeners -TestSuite\\Validate OHRM User and Application processes_Test Suite\\20240209_005154\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Shahbaaz - DESKTOP-69BDL2N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.167"/>
+         <property name="sessionId" value="6f4530a7862703b886b1dacfdf2382dd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Custom Keywords/TC_Validate OHRM Admin_list job titles_002" time="13.665" classname="Test Cases/Custom Keywords/TC_Validate OHRM Admin_list job titles_002" status="PASSED">
+         <system-out><![CDATA[09-02-2024T00:51:57 - [TEST_CASE][PASSED] - Test Cases/Custom Keywords/TC_Validate OHRM Admin_list job titles_002: Test Cases/Custom Keywords/TC_Validate OHRM Admin_list job titles_002
+
+09-02-2024T00:51:57 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+09-02-2024T00:51:57 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+09-02-2024T00:52:00 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+09-02-2024T00:52:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Jenkins Integration/TC_Validate OHRM Login_Login Success_001"), ["url":"", "username":"", "password":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001' successfully
+
+09-02-2024T00:52:00 - [TEST_CASE][PASSED] - Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001: Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001
+
+09-02-2024T00:52:00 - [TEST_STEP][PASSED] - comment("To test for successful Login"): To test for successful Login
+
+09-02-2024T00:52:00 - [MESSAGE][INFO] - To test for successful Login
+
+09-02-2024T00:52:00 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+09-02-2024T00:52:01 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+09-02-2024T00:52:01 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Password_password"), Password): Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+09-02-2024T00:52:01 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+09-02-2024T00:52:01 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Login/button_Login")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+09-02-2024T00:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+09-02-2024T00:52:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard")): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+09-02-2024T00:52:04 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+09-02-2024T00:52:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001' successfully
+
+09-02-2024T00:52:04 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Admin/a_Admin_navigation_link")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Admin/a_Admin_navigation_link' is clicked on
+
+09-02-2024T00:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Admin/a_Admin_navigation_link' is clicked on
+
+09-02-2024T00:52:05 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Admin/li_Job_top_navigation")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Admin/li_Job_top_navigation' is clicked on
+
+09-02-2024T00:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Admin/li_Job_top_navigation' is clicked on
+
+09-02-2024T00:52:07 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Admin/li_Job Titles_top_navigation")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Admin/li_Job Titles_top_navigation' is clicked on
+
+09-02-2024T00:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Admin/li_Job Titles_top_navigation' is clicked on
+
+09-02-2024T00:52:07 - [TEST_STEP][PASSED] - countText = getText(findTestObject("OrangeHRM_OR/Page_OHRM_Admin/span_record_count")): Text of object 'Object Repository/OrangeHRM_OR/Page_OHRM_Admin/span_record_count' is: '(29) Records Found'
+
+09-02-2024T00:52:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/OrangeHRM_OR/Page_OHRM_Admin/span_record_count' is: '(29) Records Found'
+
+09-02-2024T00:52:09 - [TEST_STEP][PASSED] - text = countText.split()[0]: null
+
+09-02-2024T00:52:09 - [TEST_STEP][PASSED] - num = Integer.parseInt(text[1] + text[2]): null
+
+09-02-2024T00:52:09 - [TEST_STEP][PASSED] - temp = findTestObject("OrangeHRM_OR/Page_OHRM_Admin/div_Job Titles_table_body"): null
+
+09-02-2024T00:52:09 - [TEST_STEP][PASSED] - com.admin.ListVerifier.verifyRowCount(temp, "div", num): com.admin.ListVerifier.verifyRowCount is PASSED
+
+09-02-2024T00:52:09 - [MESSAGE][PASSED] - Found web element by test object Object Repository/OrangeHRM_OR/Page_OHRM_Admin/div_Job Titles_table_body
+
+09-02-2024T00:52:09 - [MESSAGE][PASSED] - com.admin.ListVerifier.verifyRowCount is PASSED
+
+09-02-2024T00:52:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+09-02-2024T00:52:09 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button"), OPTIONAL)): null
+
+09-02-2024T00:52:09 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is visible
+
+09-02-2024T00:52:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+09-02-2024T00:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+09-02-2024T00:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on
+
+09-02-2024T00:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Buttons/TC_Validate OHRM PIM_add new user_001" time="29.67" classname="Test Cases/Buttons/TC_Validate OHRM PIM_add new user_001" status="PASSED">
+         <system-out><![CDATA[09-02-2024T00:52:11 - [TEST_CASE][PASSED] - Test Cases/Buttons/TC_Validate OHRM PIM_add new user_001: Test Cases/Buttons/TC_Validate OHRM PIM_add new user_001
+
+09-02-2024T00:52:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+09-02-2024T00:52:11 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+09-02-2024T00:52:11 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+09-02-2024T00:52:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Jenkins Integration/TC_Validate OHRM Login_Login Success_001"), ["url":"", "username":"", "password":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001' successfully
+
+09-02-2024T00:52:11 - [TEST_CASE][PASSED] - Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001: Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001
+
+09-02-2024T00:52:11 - [TEST_STEP][PASSED] - comment("To test for successful Login"): To test for successful Login
+
+09-02-2024T00:52:11 - [MESSAGE][INFO] - To test for successful Login
+
+09-02-2024T00:52:11 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+09-02-2024T00:52:12 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+09-02-2024T00:52:12 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Password_password"), Password): Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+09-02-2024T00:52:13 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+09-02-2024T00:52:13 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Login/button_Login")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+09-02-2024T00:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+09-02-2024T00:52:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard")): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+09-02-2024T00:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+09-02-2024T00:52:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001' successfully
+
+09-02-2024T00:52:16 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/a_PIM")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/a_PIM' is clicked on
+
+09-02-2024T00:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/a_PIM' is clicked on
+
+09-02-2024T00:52:17 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/button_Add")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/button_Add' is clicked on
+
+09-02-2024T00:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/button_Add' is clicked on
+
+09-02-2024T00:52:18 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/input_Employee Full Name_firstName"), "Madhav"): Text 'Madhav' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Employee Full Name_firstName'
+
+09-02-2024T00:52:20 - [MESSAGE][PASSED] - Text 'Madhav' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Employee Full Name_firstName'
+
+09-02-2024T00:52:20 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/input_Employee Full Name_middleName"), "Roy"): Text 'Roy' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Employee Full Name_middleName'
+
+09-02-2024T00:52:20 - [MESSAGE][PASSED] - Text 'Roy' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Employee Full Name_middleName'
+
+09-02-2024T00:52:20 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/input_Employee Full Name_lastName"), "Aurobindo"): Text 'Aurobindo' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Employee Full Name_lastName'
+
+09-02-2024T00:52:21 - [MESSAGE][PASSED] - Text 'Aurobindo' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Employee Full Name_lastName'
+
+09-02-2024T00:52:21 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/input_Employee Id"), "033355"): Text '033355' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Employee Id'
+
+09-02-2024T00:52:21 - [MESSAGE][PASSED] - Text '033355' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Employee Id'
+
+09-02-2024T00:52:21 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/span_switch input checkbox_create login details")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/span_switch input checkbox_create login details' is clicked on
+
+09-02-2024T00:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/span_switch input checkbox_create login details' is clicked on
+
+09-02-2024T00:52:21 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/input_Username"), "madroyauro"): Text 'madroyauro' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Username'
+
+09-02-2024T00:52:22 - [MESSAGE][PASSED] - Text 'madroyauro' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Username'
+
+09-02-2024T00:52:22 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/input_Password"), "abcd123"): Text 'abcd123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Password'
+
+09-02-2024T00:52:23 - [MESSAGE][PASSED] - Text 'abcd123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Password'
+
+09-02-2024T00:52:23 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/input_Confirm Password"), "abcd123"): Text 'abcd123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Confirm Password'
+
+09-02-2024T00:52:24 - [MESSAGE][PASSED] - Text 'abcd123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/input_Confirm Password'
+
+09-02-2024T00:52:24 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/div_Enabled_radio_button")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/div_Enabled_radio_button' is clicked on
+
+09-02-2024T00:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/div_Enabled_radio_button' is clicked on
+
+09-02-2024T00:52:25 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/button_Save")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/button_Save' is clicked on
+
+09-02-2024T00:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/button_Save' is clicked on
+
+09-02-2024T00:52:25 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+09-02-2024T00:52:33 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+09-02-2024T00:52:33 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_PIM/li_Employee List_top_navigation")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/li_Employee List_top_navigation' is clicked on
+
+09-02-2024T00:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_PIM/li_Employee List_top_navigation' is clicked on
+
+09-02-2024T00:52:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+09-02-2024T00:52:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+09-02-2024T00:52:38 - [TEST_STEP][PASSED] - verifyTextPresent("Aurobindo", false): Text 'Aurobindo' is present on page 
+
+09-02-2024T00:52:39 - [MESSAGE][PASSED] - Text 'Aurobindo' is present on page 
+
+09-02-2024T00:52:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+09-02-2024T00:52:39 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button"), OPTIONAL)): null
+
+09-02-2024T00:52:39 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is visible
+
+09-02-2024T00:52:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+09-02-2024T00:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+09-02-2024T00:52:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on
+
+09-02-2024T00:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkpoints/TC_Validate OHRM Recruitment_shortlist Candidate application_002" time="24.651" classname="Test Cases/Checkpoints/TC_Validate OHRM Recruitment_shortlist Candidate application_002" status="PASSED">
+         <system-out><![CDATA[09-02-2024T00:52:40 - [TEST_CASE][PASSED] - Test Cases/Checkpoints/TC_Validate OHRM Recruitment_shortlist Candidate application_002: Test Cases/Checkpoints/TC_Validate OHRM Recruitment_shortlist Candidate application_002
+
+09-02-2024T00:52:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+09-02-2024T00:52:40 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+09-02-2024T00:52:41 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+09-02-2024T00:52:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Jenkins Integration/TC_Validate OHRM Login_Login Success_001"), ["url":"", "username":"", "password":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001' successfully
+
+09-02-2024T00:52:41 - [TEST_CASE][PASSED] - Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001: Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001
+
+09-02-2024T00:52:41 - [TEST_STEP][PASSED] - comment("To test for successful Login"): To test for successful Login
+
+09-02-2024T00:52:41 - [MESSAGE][INFO] - To test for successful Login
+
+09-02-2024T00:52:41 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+09-02-2024T00:52:42 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+09-02-2024T00:52:42 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Password_password"), Password): Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+09-02-2024T00:52:42 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+09-02-2024T00:52:42 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Login/button_Login")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+09-02-2024T00:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+09-02-2024T00:52:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard")): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+09-02-2024T00:52:45 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+09-02-2024T00:52:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001' successfully
+
+09-02-2024T00:52:45 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/a_Recruitment_navigation_link")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/a_Recruitment_navigation_link' is clicked on
+
+09-02-2024T00:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/a_Recruitment_navigation_link' is clicked on
+
+09-02-2024T00:52:46 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/input_candidate_name"), "SuryaT"): Text 'SuryaT' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/input_candidate_name'
+
+09-02-2024T00:52:48 - [MESSAGE][PASSED] - Text 'SuryaT' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/input_candidate_name'
+
+09-02-2024T00:52:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+09-02-2024T00:52:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+09-02-2024T00:52:53 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/div_option_candidate_name")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/div_option_candidate_name' is clicked on
+
+09-02-2024T00:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/div_option_candidate_name' is clicked on
+
+09-02-2024T00:52:54 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/button_Search")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/button_Search' is clicked on
+
+09-02-2024T00:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/button_Search' is clicked on
+
+09-02-2024T00:52:54 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/button_view Profile")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/button_view Profile' is clicked on
+
+09-02-2024T00:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/button_view Profile' is clicked on
+
+09-02-2024T00:52:55 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/button_Shortlist")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/button_Shortlist' is clicked on
+
+09-02-2024T00:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/button_Shortlist' is clicked on
+
+09-02-2024T00:52:57 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/button_Save")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/button_Save' is clicked on
+
+09-02-2024T00:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/button_Save' is clicked on
+
+09-02-2024T00:52:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+09-02-2024T00:52:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+09-02-2024T00:52:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/div_Successfully Updated_popup_message")): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/div_Successfully Updated_popup_message' is visible
+
+09-02-2024T00:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/div_Successfully Updated_popup_message' is visible
+
+09-02-2024T00:53:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/p_Status Shortlisted")): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/p_Status Shortlisted' is visible
+
+09-02-2024T00:53:03 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/Page_OHRM_Recruitment_Candidate/p_Status Shortlisted' is visible
+
+09-02-2024T00:53:03 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/Candidate_Shortlisted_Checkpoint"), false): Checkpoint data and Source data are matched
+
+09-02-2024T00:53:03 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+09-02-2024T00:53:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+09-02-2024T00:53:03 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button"), OPTIONAL)): null
+
+09-02-2024T00:53:04 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is visible
+
+09-02-2024T00:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+09-02-2024T00:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+09-02-2024T00:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on
+
+09-02-2024T00:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Buttons/TC_Validate OHRM Recruitment_delete Candidate application_001" time="20.168" classname="Test Cases/Buttons/TC_Validate OHRM Recruitment_delete Candidate application_001" status="PASSED">
+         <system-out><![CDATA[09-02-2024T00:53:05 - [TEST_CASE][PASSED] - Test Cases/Buttons/TC_Validate OHRM Recruitment_delete Candidate application_001: Test Cases/Buttons/TC_Validate OHRM Recruitment_delete Candidate application_001
+
+09-02-2024T00:53:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+09-02-2024T00:53:05 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+09-02-2024T00:53:06 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+09-02-2024T00:53:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Jenkins Integration/TC_Validate OHRM Login_Login Success_001"), ["url":"", "username":"", "password":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001' successfully
+
+09-02-2024T00:53:06 - [TEST_CASE][PASSED] - Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001: Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001
+
+09-02-2024T00:53:06 - [TEST_STEP][PASSED] - comment("To test for successful Login"): To test for successful Login
+
+09-02-2024T00:53:06 - [MESSAGE][INFO] - To test for successful Login
+
+09-02-2024T00:53:06 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+09-02-2024T00:53:07 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Username_username'
+
+09-02-2024T00:53:07 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Login/input_Password_password"), Password): Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+09-02-2024T00:53:07 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/input_Password_password'
+
+09-02-2024T00:53:07 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Login/button_Login")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+09-02-2024T00:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Login/button_Login' is clicked on
+
+09-02-2024T00:53:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard")): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+09-02-2024T00:53:10 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/h6_Dashboard' is visible
+
+09-02-2024T00:53:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001' successfully
+
+09-02-2024T00:53:10 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/a_Recruitment_navigation_link")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/a_Recruitment_navigation_link' is clicked on
+
+09-02-2024T00:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/a_Recruitment_navigation_link' is clicked on
+
+09-02-2024T00:53:11 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/input_candidate_name"), "SuryaT"): Text 'SuryaT' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/input_candidate_name'
+
+09-02-2024T00:53:13 - [MESSAGE][PASSED] - Text 'SuryaT' is set on object 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/input_candidate_name'
+
+09-02-2024T00:53:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+09-02-2024T00:53:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+09-02-2024T00:53:18 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/div_option_candidate_name")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/div_option_candidate_name' is clicked on
+
+09-02-2024T00:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/div_option_candidate_name' is clicked on
+
+09-02-2024T00:53:19 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/button_Search")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/button_Search' is clicked on
+
+09-02-2024T00:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/button_Search' is clicked on
+
+09-02-2024T00:53:19 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/button_delete_candidate_application")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/button_delete_candidate_application' is clicked on
+
+09-02-2024T00:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/button_delete_candidate_application' is clicked on
+
+09-02-2024T00:53:20 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/button_Yes Delete _popup")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/button_Yes Delete _popup' is clicked on
+
+09-02-2024T00:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/button_Yes Delete _popup' is clicked on
+
+09-02-2024T00:53:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+09-02-2024T00:53:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+09-02-2024T00:53:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/div_Success Message_popup")): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/div_Success Message_popup' is visible
+
+09-02-2024T00:53:22 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/div_Success Message_popup' is visible
+
+09-02-2024T00:53:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+09-02-2024T00:53:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+09-02-2024T00:53:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("OrangeHRM_OR/Page_OHRM_Recruitment/div_No Records Found_popup")): Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/div_No Records Found_popup' is visible
+
+09-02-2024T00:53:23 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Recruitment/div_No Records Found_popup' is visible
+
+09-02-2024T00:53:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+09-02-2024T00:53:23 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button"), OPTIONAL)): null
+
+09-02-2024T00:53:23 - [MESSAGE][PASSED] - Object 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is visible
+
+09-02-2024T00:53:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+09-02-2024T00:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/span_profile_button' is clicked on
+
+09-02-2024T00:53:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout")): Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on
+
+09-02-2024T00:53:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRM_OR/Page_OHRM_Dashboard/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-02-2024T00:51:56 - [TEST_SUITE][PASSED] - Validate OHRM User and Application processes_Test Suite: Test Cases/Buttons/TC_Validate OHRM Recruitment_delete Candidate application_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
