@@ -1,5 +1,0 @@
-{"testCaseName":"Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001","testCaseId":"Test Cases/Jenkins Integration/TC_Validate OHRM Login_Login Success_001","iterationVariableName":""}
-{"testCaseName":"Test Cases/Local and Global Variables/TC_Validate OHRM Login_Invalid Username_002","testCaseId":"Test Cases/Local and Global Variables/TC_Validate OHRM Login_Invalid Username_002","iterationVariableName":""}
-{"testCaseName":"Test Cases/Local and Global Variables/TC_Validate OHRM Login_Invalid Password_003","testCaseId":"Test Cases/Local and Global Variables/TC_Validate OHRM Login_Invalid Password_003","iterationVariableName":""}
-{"testCaseName":"Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Password_004","testCaseId":"Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Password_004","iterationVariableName":""}
-{"testCaseName":"Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Username_005","testCaseId":"Test Cases/Test Listeners/TC_Validate OHRM Login_Missing Username_005","iterationVariableName":""}

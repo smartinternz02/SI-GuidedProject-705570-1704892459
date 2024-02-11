@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_Validate OHRM Recruitment_delete Candidate application_001</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>e9c434ef-e306-460a-8946-13fcc0d79054</testCaseGuid>
-</TestCaseEntity>
